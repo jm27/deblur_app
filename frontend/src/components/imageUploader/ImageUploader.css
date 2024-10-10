@@ -1,0 +1,48 @@
+.image-uploader-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.dropzone {
+    height: 100px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.dropzone:hover {
+    background-color: #ccc;
+}
+
+.dropzone.active {
+    background-color: #f9f9f9;
+}
+
+.file-requirements {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.preview-container {
+    margin-top: 20px;
+}
+
+.preview-container img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
